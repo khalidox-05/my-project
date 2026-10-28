@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing Page Project</title>
+  <title>Accueil - Landing Page Project</title>
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -12,8 +12,9 @@
   <header class="navbar">
     <div class="logo">MyBrand</div>
     <nav>
-      <a href="#hero">Accueil</a>
-      <a href="#features">Services</a>
+      <a href="index.html" class="active">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">À propos</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -44,6 +45,39 @@
     </div>
   </section>
 
+  <!-- NOUVELLE SECTION 1: Statistiques / Chiffres clés -->
+  <section id="stats" class="stats">
+    <div class="stats-grid">
+      <div class="stat-item">
+        <span class="number">+10k</span>
+        <span class="label">Utilisateurs actifs</span>
+      </div>
+      <div class="stat-item">
+        <span class="number">99.9%</span>
+        <span class="label">Temps de disponibilité</span>
+      </div>
+      <div class="stat-item">
+        <span class="number">24/7</span>
+        <span class="label">Support client</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOUVELLE SECTION 2: Témoignages clients -->
+  <section id="testimonials" class="testimonials">
+    <h2>Ce que disent nos clients</h2>
+    <div class="cards-container">
+      <div class="card testimonial-card">
+        <p>"Un outil indispensable qui a changé notre manière de gérer nos projets au quotidien."</p>
+        <span class="author">- Sophie L., Chef de projet</span>
+      </div>
+      <div class="card testimonial-card">
+        <p>"L'interface est d'une simplicité déconcertante, l'intégration s'est faite en une journée."</p>
+        <span class="author">- Marc D., Développeur</span>
+      </div>
+    </div>
+  </section>
+
   <!-- MA-06: Contact Section -->
   <section id="contact" class="contact">
     <h2>Contactez-nous</h2>
@@ -53,6 +87,8 @@
       <button type="submit" class="btn">Envoyer</button>
     </form>
   </section>
+
+  <div></div>
 
   <!-- MA-07: Footer -->
   <footer>
