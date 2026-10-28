@@ -1,0 +1,103 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* MA-02: Navbar */ 
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 5%;
+      background-color: #1f4e78;
+      color: #fff;
+    }
+
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 1.5rem;
+    }
+
+    /* MA-03: Hero Section */
+    .hero {
+      text-align: center;
+      padding: 5rem 1rem;
+      background-color: #f2f4f7;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #1f4e78;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #1f4e78;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* MA-04: Features Section */
+    .features {
+      padding: 4rem 5%;
+      text-align: center;
+    }
+
+    .cards-container {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      flex: 1;
+      min-width: 250px;
+      padding: 1.5rem;
+      border: 1px solid #d9d9d9;
+      border-radius: 8px;
+    }
+
+    /* MA-06: Contact Form */
+    .contact {
+      padding: 4rem 5%;
+      background-color: #f2f4f7;
+      text-align: center;
+    }
+
+    .contact-form {
+      max-width: 400px;
+      margin: 1.5rem auto 0;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .contact-form input {
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    /* MA-07: Footer */
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #1f4e78;
+      color: #fff;
+    }
